@@ -1,3 +1,1 @@
-# java-script-exercicios
-
-Exercicios feitos em Java Script para estudo.
+Exercicios de Java Script do Curso Java Script da Udemy
