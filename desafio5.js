@@ -50,7 +50,7 @@ console.log(
 const checkWinner = (teamA, teamB) => {
   if (teamA >= teamB * 2) {
     return "Dolphins has a double score of Koalas and wins the game!";
-  } else if (teamB >= teamB * 2) {
+  } else if (teamA >= teamB * 2) {
     return "Koalas has a double score of Dolphins and wins the game!";
   } else {
     return "No team wins the game!";
