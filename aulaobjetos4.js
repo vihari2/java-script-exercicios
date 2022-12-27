@@ -11,16 +11,15 @@ const vitoria = {
     return this.age;
   },
   driversLicense: function () {
-    this.hasDriversLicense = false;
-    return `${this.firstName} doesn't have a driver's license.`;
+    if (this.hasDriversLicense) {
+      return `has a driver's license.`;
+    } else {
+      return `doesn't have a driver's license.`;
+    }
   },
 };
 
 console.log(vitoria.calcAge());
-console.log(vitoria.age);
-console.log(vitoria.age);
-console.log(vitoria.age);
-console.log(vitoria.age);
 
 // Challenge
 
@@ -31,3 +30,8 @@ console.log(
     vitoria.job
   }, and ${vitoria.driversLicense()}`
 );
+
+//   driversLicense: function () {
+//     this.hasDriversLicense = false;
+//     return `${this.firstName} doesn't have a driver's license.`;
+//   },
