@@ -32,7 +32,7 @@ const billsArray = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tipsArray = [];
 const totalsArray = [];
 
-for (let i = 0; i <= billsArray.length; i++) {
+for (let i = 0; i < billsArray.length; i++) {
   const tip = calcTip(billsArray[i]);
   tipsArray.push(tip);
   totalsArray.push(tip + billsArray[i]);
